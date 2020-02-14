@@ -1,0 +1,115 @@
+/*Traducciones de bootstrap a estilos css : */
+
+
+/*Cabecera*/
+.header{
+    display: block;
+    z-index: 9;
+    width: 100%;
+    -webkit-box-shadow: 0 0.15rem 0.1rem 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0.15rem 0.1rem 0 rgba(0, 0, 0, 0.05);
+
+}
+
+/*Contenedores */
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*Navegador --> Márgenes verticales py-2 */
+#nav{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+/*Logo*/
+.logo {
+    float: left;
+    display: initial;
+    font-style: none;
+    font-size: 2em;
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+
+}
+.logo:hover{
+    color: blueviolet;
+}
+
+/* Menu desplegable */
+.navegador{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    font-size: 1.25rem;
+    background-color: black;
+    color: white;
+    display: none;
+
+}
+
+#menu{
+    text-decoration: none;
+    float:right;
+    margin-right: 15%;
+    margin-top: 5%;
+    background-color: black;
+    color: white;
+    font-size: medium;
+    width:8%;
+    height: 50%;
+}
+
+.navegador ul{
+   text-align: center;
+   margin-right: 20px;
+}
+
+.nav a:hover{
+    display: block;
+}
+
+.navegador ul li {
+    list-style: none;
+}
+.navegador ul a:link{
+    text-decoration: none;
+    color: white;
+}
+.navegador ul a:visited{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+ 
+
+  
+
+
+/*Fin de estilos del navegador*/
+
+
+/*Media querys*/
+@media all and (max-width:992px) {
+
+    #logo {
+        display: block;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+        float: none;
+    }
+}
