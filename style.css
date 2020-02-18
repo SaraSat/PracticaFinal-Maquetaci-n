@@ -148,8 +148,153 @@ ul{
 
 #loremSection1{
     padding: 5%;
-    text-indent: 5%;
+    text-indent: 
+    5%;
 }
+
+/*Segunda seccion*/
+
+.section2{
+    background-color: rgb(214, 235, 235);
+    margin-top: 10%;
+}
+
+#img3{
+    margin-top: 15%;
+    margin-left: 10%;
+    border-radius: 1%;
+}
+
+.section2 h4{
+    margin-left: 10%;
+}
+
+.section2 h5{
+    color: teal;
+}
+
+/* Cajas con iconos de la sección 2, se repite 4 veces */
+.pakIcon{
+    margin-left: 8%;
+}
+.tarjeta{
+    
+    width: 50%;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+.icon{
+    border-radius: 100% ;
+    border: 1px solid;
+    float: left;
+    margin-left: 3%;
+    padding: 2%;
+    
+}
+
+/*Tercera Sección */
+
+.section3{
+    margin-top: 10%;
+    padding: 8%;
+}
+
+.central{
+    text-align: center;
+    border: grey 1px solid;
+    padding: 5%;
+}
+
+/*Cuarta Sección */
+
+.section4{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.logros{
+    padding-right: 3%;
+}
+
+/*Barras de logros*/
+
+.logros hr{
+    height: 5px; 
+}
+
+#simple{
+    width: 20%;
+    float: left;
+    background-color: green;
+}
+
+
+#online{
+    width: 40%;
+    float: left;
+    background-color: blue;
+}
+
+#social{
+    width: 70%;
+    float: left;
+    background-color: yellow;
+}
+
+
+#support{
+    width: 100%;
+    background-color: red;
+}
+/*Fin barras */
+
+.article{
+    margin-top: 8%;
+   padding: 3%;
+}
+
+/*Quinta sección*/
+
+.section5{
+    margin-top: 25%;
+    display: inline-flex;
+    margin-left: 8%;
+}
+
+.section5 img{
+    width: 200px;
+}
+
+.dires{
+    width: 30vw;
+    text-align: center;
+}
+
+.dires h5{
+    color: royalblue;
+}
+
+.texto {
+    padding: 20%;
+}
+
+.redes{
+    display: inline-flex;
+}
+.redes div{
+    border: grey 1px solid;
+    padding: 5%;
+    margin: 1%;
+    font-size: 10px;
+}
+
+
+
+
+
+
+
 
 
 
