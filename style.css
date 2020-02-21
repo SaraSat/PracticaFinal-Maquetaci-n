@@ -259,7 +259,7 @@ ul{
 .section5{
     margin-top: 25%;
     display: inline-flex;
-    margin-left: 8%;
+    margin-left: 6%;
 }
 
 .section5 img{
@@ -284,22 +284,214 @@ ul{
 }
 .redes div{
     border: grey 1px solid;
-    padding: 5%;
-    margin: 1%;
+    padding: 3%;
     font-size: 10px;
+}
+
+/*Sexta Sección*/
+
+.section6{
+    display: inline-flex;
+}
+
+.fondo1{
+    background-image: url("images/test1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    color: white;
+    padding:5%;
+    
+}
+
+.fondo2{
+    background-image: url("images/test2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    color: white;
+    padding:5%;
+}
+
+
+/*Septima seccion*/
+
+.section7{
+    text-align: center;
+    padding: 5%;
+}
+
+.botones{
+    display: inline-flex;
+    
+}
+.boton{
+    border: violet 2px solid;
+    padding:10%
+
+}
+
+.botones :last-child{
+    margin-left: 5%;
+}
+
+/*Octava seccion*/
+
+.seccion8 {
+    background-color: #282b34;
+    padding-bottom: 5%;
+}
+
+.cajaSeccion {
+    padding:5%;
+    padding-left: 8%;
+}
+
+.contacto {
+    color: white;
+    text-align: center;
+}
+
+.tex {
+    color: white;
+    text-align: center;
+    padding: 3%;
+}
+
+.cajaIcono {
+    padding: 1%;
+    display: inline-flex;
+    align-items: center;
+}
+
+.cajaContacto {
+
+    text-align: center;
+    display: inline-flex;
+    color: azure;
+    margin-left: 3%;
+   
+}
+.cajaContacto p{
+    margin-left: 50%;
 }
 
 
 
+.fa-home {
+    background-color: aliceblue;
+    padding: 1em;
+    border-radius: 50%;
+}
+
+.fa-envelope {
+    background-color: aliceblue;
+    padding: 1em;
+    border-radius: 50%;
+}
+
+.fa-phone {
+    background-color: aliceblue;
+    padding: 1em;
+    border-radius: 50%;
+}
+
+.cajaFormulario{
+   margin-left: -10%;
+    width: 90%;
+}
+
+
+.cajaFormulario input,
+.cajaFormulario textarea {
+    outline: none;
+    padding: 15px 15px;
+    font-size: 14px;
+    color: #fff;
+    background: #282b34ab;
+    width: 90%;
+    letter-spacing: 3px;
+    border: 1px solid #5b5f6b;
+    border-radius: 0.25em;
+}
+
+.cajaFormulario textarea {
+    min-height: 13em;
+    margin: 1em 0em 2.5em 0;
+    resize: none;
+}
+
+.cajaFormulario .botonesBonito,
+.cajaFormulario .botonesReset {
+    outline: none;
+    padding: 14px 0;
+    font-size: 15px;
+    color: #fff;
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    width: 30%;
+    letter-spacing: 0.25em;
+    border-radius: 0.25em;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    transition: 0.5s all;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.cajaFormulario .botonesBonito,
+.cajaFormulario .botonesReset:hover {
+    background-color: #6a67ce;
+    border: 1px solid #6a67ce;
+
+}
+
+.formulario {
+    background-color: #e2e2e2;
+    border: none;
+}
+
+.inputsContacto {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 20%;
+    padding-left: 20%;
+}
 
 
 
+/*Footer*/
+footer{
+    background-color: rgb(75, 94, 94);
+    color: white;
 
+}
+
+footer p, footer h5{
+    margin-left: 5%;
+}
+
+.socialMedia{
+    float: right;
+    display: inline-flex;
+    margin-right: 3%;
+    margin-top: -5%;
+
+}
+.socialMedia div{
+    margin-right: 3%;
+
+}
 
 
 
 /*Media querys*/
-@media all and (max-width:992px) {
+
+@media (min-width: 992px) and (max-width: 1199.98px)  {
 
     #logo {
         display: block;
@@ -308,4 +500,101 @@ ul{
         text-align: center;
         float: none;
     }
+
+
+    .btn{
+       padding:1%
+    }
+
+    .section2{
+        display: inline-flex;
+    }
+    .icons{
+        margin-top: 15%;
+        padding: 3%;
+    }
+
+    .icon1{
+        float: left;
+        
+    }
+
+    .icon2{
+        float: right;
+    }
+
+    .pakIcon{
+        width: 50%;
+    }
+
+    .section4{
+        display: inline-flex;
+    }
+
+    .article{
+        margin-top: -5%;
+        margin-left: 20%;
+    }
+
+    .logros{
+        width: 30vw;
+    }
+
+    .socialMedia{
+        margin-top: -3%;
+    }
+  
+    
+
+
+}
+
+@media (min-width:1200px){
+
+    .btn{
+       padding:1%
+    }
+
+    .section2{
+        display: inline-flex;
+    }
+    .icons{
+        margin-top: 15%;
+        padding: 3%;
+
+    }
+
+    .icon1{
+        float: left;
+        
+    }
+
+    .icon2{
+        float: right;
+    }
+
+    .pakIcon{
+        width: 50%;
+    }
+
+    .section4{
+        display: inline-flex;
+    }
+
+    .article{
+        margin-top: -5%;
+        margin-left: 20%;
+    }
+
+    .logros{
+        width: 30vw;
+    }
+
+    
+    .socialMedia{
+        margin-top: -3%;
+    }
+  
+
+
 }
